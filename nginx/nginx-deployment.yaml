@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: 5.2.7-apache
         ports:
         - containerPort: 80
         volumeMounts:
